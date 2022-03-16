@@ -10,3 +10,6 @@ echo $b
 
 date=2022-03-16
 echo today date is $date
+
+date=$(date +%f)
+echo today date is $date
