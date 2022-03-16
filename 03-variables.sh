@@ -1,7 +1,7 @@
 #!/bin/bash
 
 a=100
-b=devops
+b=devops Training
 
 echo ${a}times
 echo $b
@@ -24,10 +24,11 @@ echo add=$add
 c=10
 
 ##Arrays
-c=(12 20 "small large")
+c=(10 20 "small large")
 echo first value of array = ${c[0]}
 echo third value of array = ${c[2]}
-echo all values of array = ${c{*}}
+echo all values of array = ${c[*]}
 
-echo training =${TRAINING}
+echo Training = ${TRAINING}
+
 
