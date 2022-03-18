@@ -3,7 +3,7 @@
 echo -e "\e[36m installing Ngnix \e[0m"
 yum install nginx -y
 
-echo -e "\e[36m downloading Ngnix content\e[0m"
+echo -e "\e[36m downloading Ngnix content \e[0m"
 curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
 
 
