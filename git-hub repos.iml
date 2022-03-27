@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 for dir in 'ls-l  |  grep ^d | awk '{print $NF}'' ; do
      cd $dir
