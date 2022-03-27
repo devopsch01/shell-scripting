@@ -1,0 +1,12 @@
+!/bin/bash
+
+for dir in 'ls-l  |  grep ^d | awk '{print $NF}'' ; do
+     cd $dir
+     git pull
+     git add -A
+
+     echo "-------- $dir --------
+     git commit -m "updating $dir"
+     git push
+     cd . .
+done
