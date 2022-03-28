@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for dir in 'ls-l  |  grep ^d | awk '{print $NF}'' ; do
+for dir in 'ls -l  |  grep ^d | awk '{print $NF}'' ; do
      echo "-------- $dir --------"
      cd $dir
      git pull
